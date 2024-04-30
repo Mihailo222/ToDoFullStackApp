@@ -3,7 +3,8 @@ import './App.css';
 
 //components
 import InputToDo from './components/InputToDo';
-
+import ListTodos from './components/ListToDos';
+import EditTodo from './components/EditToDo';
 
 function App() {
   return (<Fragment>
@@ -11,7 +12,8 @@ function App() {
     <div className='container'>
     
      <InputToDo/>
-
+     <ListTodos/>
+     
     </div>
     
     

@@ -15,6 +15,7 @@ const InputToDo = () => {
                 },
                 body: JSON.stringify(body)
             });
+           window.location = "/"; // resetuje window nakon izvrsenja fje na staru
             console.log(response);
         } catch (err) {
             console.error(err.message);
